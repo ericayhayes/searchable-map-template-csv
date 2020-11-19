@@ -8,10 +8,10 @@ $(window).resize(function () {
 $(function() {
 
   SearchableMapLib.initialize({
-    filePath: 'data/Kensington_ Remembers_Map Data_Chapters.csv',
+    filePath: 'data/chicago-flu-shot-locations-2019.csv',
     fileType: 'csv',
-    recordName: 'Kensington location',
-    recordNamePlural: 'kensingtons locations',
+    recordName: 'flu shot location',
+    recordNamePlural: 'flu shot locations',
     map_centroid: [39.977215, -75.123911],
     defaultZoom:  11,
     defaultRadius: 1610,
